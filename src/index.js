@@ -2,7 +2,7 @@ const search_btn = document.querySelector('.search_button');
 const search_bar = document.querySelector('#search_text');
 const result = document.querySelector('.result_text');
 const recent_cont = document.querySelector('.recent_container');
-const recent_searches = document.querySelectorAll('.recent_search');
+// const recent_searches = document.querySelectorAll('.recent_search');
 
 let recent_words = [];
 let recent_definitions = [];

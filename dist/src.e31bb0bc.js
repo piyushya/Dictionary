@@ -126,7 +126,8 @@ var search_btn = document.querySelector('.search_button');
 var search_bar = document.querySelector('#search_text');
 var result = document.querySelector('.result_text');
 var recent_cont = document.querySelector('.recent_container');
-var recent_searches = document.querySelectorAll('.recent_search');
+// const recent_searches = document.querySelectorAll('.recent_search');
+
 var recent_words = [];
 var recent_definitions = [];
 search_btn.addEventListener('click', function () {
@@ -245,7 +246,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61053" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56215" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
